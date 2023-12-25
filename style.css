@@ -499,7 +499,7 @@
 
       header .navigation.active {
           width: 100%;
-          height: calc(60% - 68px);
+          height: calc(70% - 68px);
           position: fixed;
           top: 68px;
           left: 0;
@@ -507,7 +507,8 @@
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          background: linear-gradient(rgb(0, 109, 119), rgb(255, 145, 109), rgb(131, 197, 190));
+          background:linear-gradient(90deg,#ebf4f5,#b5c6e0);
+          border-radius: 0 0 20px 20px;
       }
 
       header .navigation li {
@@ -518,7 +519,6 @@
       header .navigation li a {
           color: #000000;
           font-size: 1.6em;
-          text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
       }
 
       .menutoggle {
@@ -619,6 +619,10 @@
     }
     .banner{
         background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)) ,url(images/home-mob.jpg);
+        background-size: cover;
+    }
+    .contactus{
+        background:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)) , url(images/form-mob2.jpg);
         background-size: cover;
     }
   }
