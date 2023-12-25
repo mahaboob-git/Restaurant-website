@@ -610,7 +610,7 @@
       }
 
   }
-  @media screen and (max-width:500px){
+  @media screen and (max-width:420px){
     .menutoggle{
         margin-left: 20px;
     }
