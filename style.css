@@ -499,7 +499,7 @@
 
       header .navigation.active {
           width: 100%;
-          height: calc(70% - 68px);
+          height: calc(65% - 68px);
           position: fixed;
           top: 68px;
           left: 0;
