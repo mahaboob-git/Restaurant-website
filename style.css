@@ -24,7 +24,7 @@
   .dark-theme {
       --primary-color: #003049;
       --secondary-color: #ffffff;
-      --border-color: #788bff;
+      --border-color:  #ff660d;
       --btn-bg: #003049;
       --track-color: #003049;
       --testi-bd: #dbdbdb;
@@ -616,5 +616,9 @@
     }
     header .logo{
         margin-left: -15px;
+    }
+    .banner{
+        background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)) ,url(images/home-mob.jpg);
+        background-size: cover;
     }
   }
