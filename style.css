@@ -614,4 +614,7 @@
     .menutoggle{
         margin-left: 20px;
     }
+    header .logo{
+        margin-left: -15px;
+    }
   }
